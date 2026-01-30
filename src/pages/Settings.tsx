@@ -329,16 +329,8 @@ function Settings() {
                                         updateLanguage(newLang);
                                     }}
                                 >
-                                    <option value="zh">简体中文</option>
-                                    <option value="zh-TW">繁體中文</option>
-                                    <option value="en">English</option>
-                                    <option value="ja">日本語</option>
-                                    <option value="tr">Türkçe</option>
                                     <option value="vi">Tiếng Việt</option>
-                                    <option value="pt">Português</option>
-                                    <option value="ko">한국어</option>
-                                    <option value="ru">Русский</option>
-                                    <option value="ar">العربية</option>
+                                    <option value="en">English</option>
                                 </select>
                             </div>
 
@@ -886,13 +878,13 @@ function Settings() {
                                         <div className="absolute inset-0 bg-blue-500/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
                                         <img
                                             src="/icon.png"
-                                            alt="Antigravity Logo"
+                                            alt="AIOLauncher Logo"
                                             className="relative w-24 h-24 rounded-3xl shadow-2xl transform group-hover:scale-105 transition-all duration-500 rotate-3 group-hover:rotate-6 object-cover bg-white dark:bg-black"
                                         />
                                     </div>
 
                                     <div>
-                                        <h3 className="text-3xl font-black text-gray-900 dark:text-base-content tracking-tight mb-2">Antigravity Tools</h3>
+                                        <h3 className="text-3xl font-black text-gray-900 dark:text-base-content tracking-tight mb-2">AIOLauncher Server Trans</h3>
                                         <div className="flex items-center justify-center gap-2 text-sm">
                                             <span className="px-2.5 py-0.5 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 font-medium border border-blue-200 dark:border-blue-800">
                                                 v4.0.8
@@ -929,7 +921,7 @@ function Settings() {
 
                                     {/* GitHub Card */}
                                     <a
-                                        href="https://github.com/lbjlaq/Antigravity-Manager"
+                                        href="https://github.com/hoquangtruongctld13-ctrl/AIOLaunchertool"
                                         target="_blank"
                                         rel="noreferrer"
                                         className="bg-white dark:bg-base-100 p-4 rounded-2xl border border-gray-100 dark:border-base-300 shadow-sm hover:shadow-md hover:border-gray-300 dark:hover:border-gray-600 transition-all group flex flex-col items-center text-center gap-3 cursor-pointer"

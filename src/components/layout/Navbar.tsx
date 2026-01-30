@@ -97,16 +97,8 @@ function Navbar() {
     }, []);
 
     const languages = [
-        { code: 'zh', label: '简体中文', short: 'ZH' },
-        { code: 'zh-TW', label: '繁體中文', short: 'TW' },
-        { code: 'en', label: 'English', short: 'EN' },
-        { code: 'ja', label: '日本語', short: 'JA' },
-        { code: 'tr', label: 'Türkçe', short: 'TR' },
         { code: 'vi', label: 'Tiếng Việt', short: 'VI' },
-        { code: 'pt', label: 'Português', short: 'PT' },
-        { code: 'ko', label: '한국어', short: 'KO' },
-        { code: 'ru', label: 'Русский', short: 'RU' },
-        { code: 'ar', label: 'العربية', short: 'AR' },
+        { code: 'en', label: 'English', short: 'EN' },
     ];
 
     const handleLanguageChange = async (langCode: string) => {
@@ -139,7 +131,7 @@ function Navbar() {
                     {/* Logo - 左侧 */}
                     <div className="flex items-center">
                         <Link to="/" className="text-xl font-semibold text-gray-900 dark:text-base-content flex items-center gap-2">
-                            Antigravity Tools
+                            AIOLauncher Server Trans
                         </Link>
                     </div>
 
