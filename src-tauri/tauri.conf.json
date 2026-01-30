@@ -44,7 +44,7 @@
     "updater": {
       "active": true,
       "endpoints": [
-        "https://github.com/lbjlaq/Antigravity-Manager/releases/latest/download/updater.json"
+        "https://github.com/hoquangtruongctld13-ctrl/AIOLaunchertool/releases/latest/download/updater.json"
       ],
       "dialog": true,
       "pubkey": "RWSQvAJOE+udAGSUoZB7Y7EhAGOyZkB1zHaKwRYfldgig5rIF+PVUDbo"
@@ -52,7 +52,6 @@
     "process": null,
     "fs": null,
     "dialog": null,
-    "opener": null,
-    "single-instance": {}
+    "opener": null
   }
 }
